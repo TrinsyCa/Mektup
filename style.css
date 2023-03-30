@@ -1,0 +1,79 @@
+*
+{
+   font-family: 'Satisfy', cursive;
+}
+body
+{
+   overflow: hidden;
+}
+.mektup
+{
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 99;
+}
+.mektup-top
+{
+   position: absolute;
+   top: 22.7%;
+   left: 50.2%;
+   transform: translateX(-50%);
+   scale: 1.004;
+   z-index: 100;
+   transition: 0.5s;
+}
+.mektup-top .btn-col
+{
+   position: absolute;
+   top: 95%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.mektup-top .btn
+{
+   position: relative;
+   padding: 20px 30px;
+   border-radius: 90px;
+   background-color: #c97070;
+   border: none;
+   outline: none;
+}
+.mektup-top .btn:hover
+{
+   background: #c97676;
+}
+.mektup-bottom
+{
+   position: absolute;
+   transition: 0.5s;
+   bottom: -4.1%;
+   transform: translateY(-50%);
+}
+.page
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+}
+.txt
+{
+   width: 420px;
+   height: 520px;
+   background-color: rgba(0, 0, 0, 0.2);
+   border-radius: 15px;
+   padding: 5px 20px;
+   color: rgba(0, 0, 0, 0.45);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+   font-size: 32px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+   font-style: italic;
+}
